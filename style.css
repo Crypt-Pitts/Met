@@ -1,0 +1,29 @@
+h1, h2, h3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  img {
+    max-width: 600px;
+  }
+  h3{
+    font: italic smaller sans-serif;
+  }
+
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
